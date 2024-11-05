@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import Header from '../components/Header.jsx'
 import About from '../components/About.jsx'
 import Skills from '../components/Skills.jsx'
 import Projects from '../components/Projects.jsx'
@@ -10,7 +8,6 @@ function App() {
 
   return (
       <div>
-        <Header />
         <About />
         <Skills />
         <Projects />

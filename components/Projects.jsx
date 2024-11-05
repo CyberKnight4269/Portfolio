@@ -3,7 +3,8 @@ import React from 'react'
 function Projects() {
   return (
     <section id="projects" className="container">
-        <h2>Projects</h2>
+        <h2 className='heading'>Projects</h2>
+        <br /><br />
         <div className="projects-grid">
             <div className="project-item">
                 <h3 className="project-title">Project 1</h3>
