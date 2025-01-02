@@ -13,6 +13,8 @@ function Skills() {
             <div className="skill-item">Express.js</div>
             <div className="skill-item">MongoDB</div>
             <div className="skill-item">Python</div>
+            <div className="skill-item">MySQL</div>
+            <div className="skill-item">PostgreSQL</div>
         </div>
     </section>
   )
