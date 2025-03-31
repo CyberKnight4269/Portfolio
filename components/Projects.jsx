@@ -15,7 +15,7 @@ function Projects() {
             </a>
             <a href='https://github.com/CyberKnight4269/MNIST-ANN' className="project-item">
                 <h3 className="project-title">MNIST-ANN</h3>
-                <p className="project-description">An Artificial Neural Network model to predict hand-written digits using the MNIST dataset. Implemented in TensorFlow Keras on Google Colab.</p>
+                <p className="project-description">An Artificial Neural Network model to predict hand-written digits using the MNIST dataset with an accuracy of 97.79%. Implemented in TensorFlow Keras on Google Colab.</p>
             </a>
         </div>
     </section>
