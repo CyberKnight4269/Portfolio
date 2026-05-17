@@ -35,7 +35,7 @@ function Skills() {
           <h2>Skills</h2>
           <div className="underline"></div>
         </div>
-        
+
         <div className="skills-container">
           {skillCategories.map((category, index) => (
             <div className="skill-category" key={index}>

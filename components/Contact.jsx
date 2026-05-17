@@ -8,12 +8,12 @@ function Contact() {
           <h2>Contact</h2>
           <div className="underline"></div>
         </div>
-        
+
         <div className="contact-container">
           <div className="contact-info">
             <h3>Get In Touch</h3>
             <p>Feel free to reach out to me for collaboration or opportunities.</p>
-            
+
             <div className="contact-details">
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>

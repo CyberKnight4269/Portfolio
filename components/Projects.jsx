@@ -32,7 +32,7 @@ function Projects() {
           <h2>Projects</h2>
           <div className="underline"></div>
         </div>
-        
+
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div className="project-item" key={index}>
