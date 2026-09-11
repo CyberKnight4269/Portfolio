@@ -454,6 +454,11 @@ nav a:hover::after { width: 100%; }
   font-weight: 500;
 }
 
+.project-links-container{
+  display: flex;
+  flex-direction: column;
+}
+
 .project-link {
   display: inline-flex;
   align-items: center;
@@ -465,7 +470,24 @@ nav a:hover::after { width: 100%; }
   font-size: 0.95rem;
 }
 
+.project-live {
+  display: inline-flex;
+  align-items: center;
+  color: var(--accent-2);
+  font-weight: 500;
+  gap: 8px;
+  margin-top: 10px;
+  transition: gap 0.3s ease, color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+
 .project-link:hover {
+  gap: 14px;
+  color: var(--accent-1);
+}
+
+.project-live:hover {
   gap: 14px;
   color: var(--accent-1);
 }
