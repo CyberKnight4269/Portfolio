@@ -18,11 +18,11 @@ function Projects() {
       link: "https://github.com/CyberKnight4269/User-Management-System"
     },
     {
-      title: "MNIST-ANN",
-      description: "An Artificial Neural Network model to predict hand-written digits using the MNIST dataset with an accuracy of 97.79%",
-      details: "Implemented in TensorFlow Keras on Google Colab",
-      tech: ["Python", "TensorFlow", "Keras", "Neural Networks"],
-      link: "https://github.com/CyberKnight4269/MNIST-ANN"
+      title: "AI Database Query Agent",
+      description: " An LLM-powered database agent that converts natural language questions into executable database queries using database schema-aware prompting",
+      details: "Handles ambiguity through a clarification engine and executes queries across database adapters. Temporary conversation context and a centralized client to support context-aware agent interactions",
+      tech: ["Python", "Gemini API", "PostgreSQL", "SQLAlchemy", "psycopg"],
+      link: "https://github.com/CyberKnight4269/Text2Sql"
     }
   ];
 
