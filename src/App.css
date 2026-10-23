@@ -27,6 +27,10 @@
 
 html { scroll-behavior: smooth; }
 
+p,span,h1,h2,h3{
+  cursor: default;
+}
+
 body {
   font-family: 'Sora', sans-serif;
   line-height: 1.6;

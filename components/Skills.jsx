@@ -43,7 +43,7 @@ function Skills() {
               <div className="skills-list">
                 {category.skills.map((skill, skillIndex) => (
                   <div className="skill-item" key={skillIndex}>
-                    {skill}
+                    <span>{skill}</span>
                   </div>
                 ))}
               </div>
